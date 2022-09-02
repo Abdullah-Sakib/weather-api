@@ -17,6 +17,7 @@ const loadData = city => {
 }
 
 const displayData = data => {
+  console.log(data);
   const city = document.getElementById('city');
   city.textContent = '';
   const temperature = document.getElementById('temperature');
